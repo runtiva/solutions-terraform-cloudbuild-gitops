@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "maximal-evening-384523-tfstate"
     prefix = "env/dev"
   }
 }
